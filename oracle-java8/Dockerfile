@@ -26,7 +26,7 @@ WORKDIR /data
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 ## installing default tomcat8*
-apt install tomcat8 tomcat8-admin tomcat8-examples tomcat8-common tomcat8-docs tomcat8-user
+RUN apt install tomcat8 tomcat8-admin tomcat8-examples tomcat8-common tomcat8-docs tomcat8-user
 
 # Define default command.
 CMD ["bash"]
